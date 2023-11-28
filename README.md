@@ -23,3 +23,6 @@ pip install git+https://github.com/BindsNET/bindsnet.git
 ```
 
 ### 2. FPGA Implementation
+- This implementation was created in Vivado 2018.3. The target device is Kintex-7 KC705 Evaluation Platform.
+- 
+Download the complete [Vivado Project](https://1drv.ms/f/s!Ar7U4hJqERkwgoU06N7KqqH1yY2L_A?e=x7XsHn) 
