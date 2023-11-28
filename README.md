@@ -1,2 +1,1 @@
-# SNN_Interface
-PC-FPGA Interface for SNN chip
+# PC-FPGA Interface for SNN chip
