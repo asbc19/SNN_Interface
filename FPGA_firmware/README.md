@@ -1,0 +1,5 @@
+- Bitstream
+- Modify the FreeRTOS lwIP Echo Server
+  - Change in the main.c
+  - Change Echo.c to server1.c
+- When creating the example https://www.notion.so/AXI-Ethernet-Lite-7c0631fa2de04b78a932cfb479baaacb?pvs=4
