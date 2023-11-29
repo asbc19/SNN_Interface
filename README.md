@@ -35,7 +35,7 @@ Download the complete [Vivado Project](https://1drv.ms/f/s!Ar7U4hJqERkwgoU5jZTIt
 https://github.com/asbc19/SNN_Interface/assets/67765415/3c8997e0-a3ab-4190-a9b0-39a3b73e7e5b
 
 ### 1.3 PC-FPGA Communication
-Make sure that the PC is in the same network as the FPGA server.
+Ensure the PC is in the same network as the FPGA server.
 - Set IP in the PC to 192.168.8.
   
 https://github.com/asbc19/SNN_Interface/assets/67765415/0928d5e9-6e01-4f29-8c9e-2ee888f1b989
@@ -56,3 +56,9 @@ conda install -c conda-forge ffmpeg
 - Also, the neuron model is modified to $U \geq U_{threshold}$ in the file `neurons.py`.
 
 ## 3. Weights Quantization
+Weights are quantized to 5-bit INT and stored in Bit representation.
+- Run the notebook using `snnTorch_env`.
+
+The Jupiter notebook includes:
+- Quantization and De-quantization algorithms based on the original Java code and Pytorch/TensorFlow.
+- Accuracy calculation for quantized models.
