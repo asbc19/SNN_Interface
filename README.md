@@ -38,3 +38,5 @@ Make sure that the PC is in the same network as the FPGA server.
 - Set IP in the PC to 192.168.8.
   
 https://github.com/asbc19/SNN_Interface/assets/67765415/0928d5e9-6e01-4f29-8c9e-2ee888f1b989
+
+## 2. Training and Weights Quantization
