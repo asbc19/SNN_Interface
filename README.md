@@ -21,6 +21,7 @@ conda install -c conda-forge pysimplegui
 conda install git
 pip install git+https://github.com/BindsNET/bindsnet.git
 ```
+https://github.com/asbc19/SNN_Interface/assets/67765415/22383ff6-ff38-480c-8045-ea15bd75e4ff
 
 ### 1.2. FPGA Implementation
 Download the complete [Vivado Project](https://1drv.ms/f/s!Ar7U4hJqERkwgoU5jZTItalcBQ_r3Q?e=I4ahLl). 
