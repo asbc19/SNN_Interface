@@ -1,0 +1,188 @@
+Mon Nov 13 20:54:00 +08 2023
+Mon Nov 13 20:54:01 2023       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 450.216.04   Driver Version: 450.216.04   CUDA Version: 11.0     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla V100-SXM2...  Off  | 00000000:3A:00.0 Off |                  Off |
+| N/A   38C    P0    54W / 300W |      0MiB / 32510MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+Running on cpu
+
+Number of samples in the training dataset: 60000
+Number of samples in the testing dataset: 10000
+
+SNN Architecture: 
+ Net(
+  (fc1): Linear(in_features=784, out_features=512, bias=False)
+  (lif1): Leaky()
+  (fc2): Linear(in_features=512, out_features=10, bias=False)
+  (lif2): Leaky()
+) 
+
+Epoch 0, Batch number 0
+Train Set Loss: 46.69
+Test Set Loss: 45.43
+Train set accuracy for a single minibatch: 13.28%
+Test set accuracy for a single minibatch: 4.69%
+
+
+Epoch 0, Batch number 100
+Train Set Loss: 16.23
+Test Set Loss: 14.48
+Train set accuracy for a single minibatch: 89.06%
+Test set accuracy for a single minibatch: 92.97%
+
+
+Epoch 0, Batch number 200
+Train Set Loss: 14.68
+Test Set Loss: 19.38
+Train set accuracy for a single minibatch: 89.06%
+Test set accuracy for a single minibatch: 83.59%
+
+
+Epoch 0, Batch number 300
+Train Set Loss: 14.49
+Test Set Loss: 11.81
+Train set accuracy for a single minibatch: 90.62%
+Test set accuracy for a single minibatch: 94.53%
+
+
+Epoch 0, Batch number 400
+Train Set Loss: 13.16
+Test Set Loss: 13.56
+Train set accuracy for a single minibatch: 90.62%
+Test set accuracy for a single minibatch: 92.19%
+
+
+Epoch 5, Batch number 0
+Train Set Loss: 6.86
+Test Set Loss: 8.20
+Train set accuracy for a single minibatch: 99.22%
+Test set accuracy for a single minibatch: 97.66%
+
+
+Epoch 5, Batch number 100
+Train Set Loss: 7.52
+Test Set Loss: 9.17
+Train set accuracy for a single minibatch: 96.88%
+Test set accuracy for a single minibatch: 95.31%
+
+
+Epoch 5, Batch number 200
+Train Set Loss: 9.63
+Test Set Loss: 9.17
+Train set accuracy for a single minibatch: 95.31%
+Test set accuracy for a single minibatch: 96.09%
+
+
+Epoch 5, Batch number 300
+Train Set Loss: 8.92
+Test Set Loss: 7.34
+Train set accuracy for a single minibatch: 96.88%
+Test set accuracy for a single minibatch: 98.44%
+
+
+Epoch 5, Batch number 400
+Train Set Loss: 7.51
+Test Set Loss: 7.16
+Train set accuracy for a single minibatch: 97.66%
+Test set accuracy for a single minibatch: 97.66%
+
+
+Epoch 10, Batch number 0
+Train Set Loss: 5.39
+Test Set Loss: 10.86
+Train set accuracy for a single minibatch: 99.22%
+Test set accuracy for a single minibatch: 94.53%
+
+
+Epoch 10, Batch number 100
+Train Set Loss: 5.40
+Test Set Loss: 6.67
+Train set accuracy for a single minibatch: 100.00%
+Test set accuracy for a single minibatch: 98.44%
+
+
+Epoch 10, Batch number 200
+Train Set Loss: 5.81
+Test Set Loss: 5.39
+Train set accuracy for a single minibatch: 99.22%
+Test set accuracy for a single minibatch: 98.44%
+
+
+Epoch 10, Batch number 300
+Train Set Loss: 5.42
+Test Set Loss: 7.69
+Train set accuracy for a single minibatch: 98.44%
+Test set accuracy for a single minibatch: 98.44%
+
+
+Epoch 10, Batch number 400
+Train Set Loss: 5.19
+Test Set Loss: 8.36
+Train set accuracy for a single minibatch: 98.44%
+Test set accuracy for a single minibatch: 95.31%
+
+
+Epoch 15, Batch number 0
+Train Set Loss: 3.96
+Test Set Loss: 5.23
+Train set accuracy for a single minibatch: 100.00%
+Test set accuracy for a single minibatch: 98.44%
+
+
+Epoch 15, Batch number 100
+Train Set Loss: 4.42
+Test Set Loss: 8.77
+Train set accuracy for a single minibatch: 100.00%
+Test set accuracy for a single minibatch: 95.31%
+
+
+Epoch 15, Batch number 200
+Train Set Loss: 4.56
+Test Set Loss: 5.31
+Train set accuracy for a single minibatch: 100.00%
+Test set accuracy for a single minibatch: 97.66%
+
+
+Epoch 15, Batch number 300
+Train Set Loss: 4.49
+Test Set Loss: 7.70
+Train set accuracy for a single minibatch: 97.66%
+Test set accuracy for a single minibatch: 96.09%
+
+
+Epoch 15, Batch number 400
+Train Set Loss: 4.68
+Test Set Loss: 5.35
+Train set accuracy for a single minibatch: 97.66%
+Test set accuracy for a single minibatch: 98.44%
+
+
+Total correctly classified test set images: 9694/10000
+Test Set Accuracy: 96.94% 
+
+Model's state_dict:
+fc1.weight 	 torch.Size([512, 784])
+lif1.threshold 	 torch.Size([])
+lif1.graded_spikes_factor 	 torch.Size([])
+lif1.reset_mechanism_val 	 torch.Size([])
+lif1.beta 	 torch.Size([])
+fc2.weight 	 torch.Size([10, 512])
+lif2.threshold 	 torch.Size([])
+lif2.graded_spikes_factor 	 torch.Size([])
+lif2.reset_mechanism_val 	 torch.Size([])
+lif2.beta 	 torch.Size([])
