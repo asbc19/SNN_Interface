@@ -19,6 +19,7 @@ conda create --name snn_env python==3.8.10
 conda install -c conda-forge pysimplegui
 
 conda install git
+
 pip install git+https://github.com/BindsNET/bindsnet.git
 ```
 https://github.com/asbc19/SNN_Interface/assets/67765415/22383ff6-ff38-480c-8045-ea15bd75e4ff
