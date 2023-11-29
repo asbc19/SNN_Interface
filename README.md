@@ -28,10 +28,13 @@ Download the complete [Vivado Project](https://1drv.ms/f/s!Ar7U4hJqERkwgoU5jZTIt
 - This implementation was created in Vivado 2018.3.
 - The target device is Kintex-7 KC705 Evaluation Platform.
 - It implements uBlaze + UART + Ethernet Blocks.
-- The firmware for uBlaze was created using SDK 2018.3.  
+- The firmware for uBlaze was created using SDK 2018.3.
+- To run the server, connect the UART port with a baud rate of 9600 and load the firmware.
+
+https://github.com/asbc19/SNN_Interface/assets/67765415/3c8997e0-a3ab-4190-a9b0-39a3b73e7e5b
 
 ### 1.3 PC-FPGA Communication
 Make sure that the PC is in the same network as the FPGA server.
-- Set IP in the PC to 192.168.8
-
+- Set IP in the PC to 192.168.8.
+  
 https://github.com/asbc19/SNN_Interface/assets/67765415/0928d5e9-6e01-4f29-8c9e-2ee888f1b989
