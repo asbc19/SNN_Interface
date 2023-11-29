@@ -39,4 +39,19 @@ Make sure that the PC is in the same network as the FPGA server.
   
 https://github.com/asbc19/SNN_Interface/assets/67765415/0928d5e9-6e01-4f29-8c9e-2ee888f1b989
 
-## 2. Training and Weights Quantization
+## 2. Model Training
+The training code uses [snnTorch](https://github.com/jeshraghian/snntorch).
+
+To run the code, create the following conda environment:
+```
+conda create --name snnTorch_env python=3.10.12
+
+pip install snntorch
+
+conda install -c pytorch torchvision
+
+conda install -c conda-forge ffmpeg
+```
+- Also, the neuron model is modified to $U \geq U_{threshold}$ in the file `neurons.py`.
+
+## 3. Weights Quantization
