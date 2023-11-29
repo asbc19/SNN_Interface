@@ -23,9 +23,15 @@ pip install git+https://github.com/BindsNET/bindsnet.git
 ```
 https://github.com/asbc19/SNN_Interface/assets/67765415/22383ff6-ff38-480c-8045-ea15bd75e4ff
 
-### 1.2. FPGA Implementation
+### 1.2 FPGA Bitstream and Firmware
 Download the complete [Vivado Project](https://1drv.ms/f/s!Ar7U4hJqERkwgoU5jZTItalcBQ_r3Q?e=I4ahLl). 
 - This implementation was created in Vivado 2018.3.
 - The target device is Kintex-7 KC705 Evaluation Platform.
 - It implements uBlaze + UART + Ethernet Blocks.
 - The firmware for uBlaze was created using SDK 2018.3.  
+
+### 1.3 PC-FPGA Communication
+Make sure that the PC is in the same network as the FPGA server.
+- Set IP in the PC to 192.168.8
+
+https://github.com/asbc19/SNN_Interface/assets/67765415/0928d5e9-6e01-4f29-8c9e-2ee888f1b989
