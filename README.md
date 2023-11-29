@@ -29,3 +29,7 @@ Download the complete [Vivado Project](https://1drv.ms/f/s!Ar7U4hJqERkwgoU5jZTIt
 - It implements uBlaze + UART + Ethernet Blocks.
 - The firmware for uBlaze was created using SDK 2018.3.  
 
+
+
+https://github.com/asbc19/SNN_Interface/assets/67765415/75b61fa8-0d77-4c04-ba4c-7d37e55ec662
+
